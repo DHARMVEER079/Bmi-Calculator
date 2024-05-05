@@ -1,0 +1,25 @@
+*{
+    background-color: rgb(127, 173, 202);
+
+}
+
+#mainhead{
+    align-items: center;
+}
+#main-container{
+    text-align: center;
+    background-color:rgb(236, 231, 231);
+    border-radius: 5%;
+}
+#bmitable{
+    margin-left: 400px;
+    align-items: center;
+}
+.calculator{
+    width: 400px;
+  
+   
+}
+
+
+

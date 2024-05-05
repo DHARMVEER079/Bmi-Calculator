@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main-container">
+        <h2 id="mainhead " class="small">BMI-CALCULATOR</h2>
+
+    </div>
+
+    <div style="
+    text-align: -webkit-center;" id="small">
+    <p style="border: 2PX SOLID black; width: 100PX;"><b>BMI TABLE</b></p>
+
+        <table border="BLACK">
+
+            <thead>
+                <tr>
+                    <th>
+                        <H3>CATEGORY</H3>
+                    </th>
+                    <th>
+                        <H3>BMI</H3>in kg/m<sup>2</sup>
+                    </th>
+
+                </tr>
+            </thead>
+
+            <body>
+                <tr>
+                    <td>UNDERWEIGTH (SEVERE THINESS)</td>
+                    <td>BELOW 16.0</td>
+                </tr>
+                <tr>
+
+                    <td>UNDERWEIGHT (MODERATE THINESS)</td>
+                    <td>16.0 – 16.9</td>
+                </tr>
+                <tr>
+                    <td>UNDERWEIGHT (MILD THINESS) </td>
+                    <td>17.0 – 18.4</td>
+                </tr>
+                <tr>
+                    <td>NORMAL RANGE <B>(FIT)</B> </td>
+                    <td>18.5 – 24.9</td>
+                </tr>
+                <tr>
+                    <td>OVERWEIGHT</td>
+                    <td>25.0 – 29.9</td>
+                </tr>
+                <tr>
+                    <td>OBESE (CLASS 1)</td>
+                    <td>30.0 – 34.9</td>
+                </tr>
+                <tr>
+                    <td>OBESE (CLASS 2)</td>
+                    <td>35.0 – 39.9</td>
+                </tr>
+                <tr>
+                    <td>OBESE (CLASS 3)</td>
+                    <td>ABOVE 40</td>
+                </tr>
+            </body>
+
+
+
+        </table>
+
+
+    </div>
+    <BR></BR>
+    <p id="line" style="
+    text-align: -webkit-center;" id="small"><b>BMI</b> will be represented below , will be in kg/m<sup>2</sup></p>
+    <BR></BR>
+    <div class="bmi box" style="
+        text-align: -webkit-center;" id="small">
+
+        <div class="calculator">
+            <label for="weight">Enter weight in Kilograms:</label>
+            <input type="number" id="weight" placeholder="Enter weight in kilograms"><br>
+            <label for="height1">Enter height in feet: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;</label>
+            <input type="number" id="height1" placeholder="Enter height in feet"><br>
+            <label for="height2">Enter height in inches: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" id="height2" placeholder="Enter height in inches">
+
+        </div>
+        <br>
+        <div class="calculate">
+            <button style="align-items: center;" onclick="calculateBMI()">Calculate</button>
+        </div>
+        <div>
+            <p id="result"></p>
+            <p id="result1"></p>
+        </div>
+
+    </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
